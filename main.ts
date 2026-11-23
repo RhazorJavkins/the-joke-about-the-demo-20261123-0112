@@ -1,6 +1,6 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 
-const joke = 'The live demo crashed, so my AI coding agent added a fallback that says, “Let’s skip to the Q&A.”';
+const joke = 'My AI coding agent fixed the demo crash. The catch block now says, “Please welcome to the stage whoever clicked Approve.”';
 
 mkdirSync('/output', { recursive: true });
 writeFileSync('/output/entry.txt', joke, 'utf8');
